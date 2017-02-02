@@ -1,4 +1,4 @@
-# A particle fire simulation c++ program
+# A fire particle simulation c++ program
 
 ### Libraries
 
@@ -17,4 +17,10 @@ Eclipse neon with makefiles
                                    int         h,
                                    Uint32      flags)
 
-### A simple simulation built in c++ in preparation for class
+### A  fire particle simulation built in c++ in preparation for class
+
+### Undeclared Identifer NULL
+
+Include this in the header
+
+    #include <stddef.h>
