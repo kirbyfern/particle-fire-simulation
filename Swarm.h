@@ -14,7 +14,7 @@ namespace slashgeegee {
 
 class Swarm {
 public:
-	const static int NPARTICLES = 1000;
+	const static int NPARTICLES = 6000;
 private:
 	Particle * m_pParticles;
 public:
