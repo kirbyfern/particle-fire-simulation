@@ -2,6 +2,8 @@
 
 ![Giphy](https://media.giphy.com/media/26gs88Cmn24upi5ry/giphy.gif)
 
+![Giph](https://media.giphy.com/media/26xBDSClEVVKyTW6Y/giphy.gif)
+
 ### Libraries
 
 - [Simple Direct Media layer(SDL2) from libsdl](https://www.libsdl.org)
