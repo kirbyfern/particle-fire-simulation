@@ -1,10 +1,10 @@
 # A fire particle simulation c++ program
 
-![Giphy](https://media.giphy.com/media/26gs88Cmn24upi5ry/giphy.gif)
+![1](https://media.giphy.com/media/26gs88Cmn24upi5ry/giphy.gif)
 
-![Giph](https://media.giphy.com/media/26xBDSClEVVKyTW6Y/giphy.gif)
+![2](https://media.giphy.com/media/26xBDSClEVVKyTW6Y/giphy.gif)
 
-![Giphyy](https://media.giphy.com/media/26gscrJTeFkIlND2w/giphy.gif)
+![3](https://media.giphy.com/media/l3q2FT5mgpzR82yCQ/giphy.gif)
 
 ### Libraries
 
