@@ -19,9 +19,6 @@ int main() {
 
 	srand(time(NULL));
 
-//	const int SCREEN_WIDTH = 800;
-//	const int SCREEN_HEIGHT= 600;
-
 	Screen screen;
 
 	if (screen.init() == false) {
