@@ -36,8 +36,7 @@ int main() {
 
 		int elapsed = SDL_GetTicks();
 
-		screen.clear();
-		swarm.update();
+		swarm.update(elapsed);
 
 		unsigned char green = (unsigned char) ((1 + sin(elapsed * 0.0001)) * 128);
 		unsigned char red = (unsigned char) ((1 + sin(elapsed * 0.0002)) * 128);
@@ -54,13 +53,7 @@ int main() {
 			screen.setPixel(x, y, red, green , blue);
 		}
 
-
-/* Comment out whole screen color shifting */
-//		for (int y = 0; y < Screen::SCREEN_HEIGHT; y++) {
-//			for (int x = 0; x < Screen::SCREEN_WIDTH; x++) {
-//				screen.setPixel(x, y, red, green, blue);
-//			}
-//		}
+		screen.boxBlur();
 
 
 		// Draw the screen
@@ -71,7 +64,9 @@ int main() {
 			break;
 		}
 	}
-
+/* SDL Basic(3113,0x7fffbe5f63c0) malloc: *** error for object 0x106b2c000: pointer being freed was not allocated *** set a breakpoint in malloc_error_break to debug */
+	/* Ok if two double pointer released then the error comes up */
+/* if screen.close() is present some error about pointer uninitialized */
 	screen.close();
 
 	return 0;
